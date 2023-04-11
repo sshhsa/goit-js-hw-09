@@ -16,3 +16,28 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.button-color-task-1 {
+  margin: 0;
+  margin: 20px;
+  padding: 0;
+  padding: 15px 30px;
+
+  font-size: 26px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  color: rgb(255, 255, 255);
+  background-color: rgb(128, 128, 128);
+
+  transition: background-color 300ms ease-in-out;
+}
+
+.button-start:hover {
+  background-color: rgb(218, 247, 166);
+}
+
+.button-stop:hover {
+  background-color: rgb(233, 68, 68);
+}

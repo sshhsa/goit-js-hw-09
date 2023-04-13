@@ -17,6 +17,8 @@ img {
   max-width: 100%;
 }
 
+/* ------- TASK-1 ------- */
+
 .button-color-task-1 {
   margin: 0;
   margin: 20px;
@@ -40,4 +42,57 @@ img {
 
 .button-stop:hover {
   background-color: rgb(233, 68, 68);
+}
+
+/* ------- TASK-2 -------*/
+
+.input-datetime {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.button-task-2 {
+  margin: 0;
+  margin: 20px;
+  padding: 0;
+  padding: 10px 20px;
+
+  font-size: 24px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  background-color: rgba(69, 116, 170, 0.74);
+
+  transition: background-color 300ms ease-in-out;
+}
+
+.button-task-2:hover,
+.button-task-2:focus {
+  background-color: rgba(33, 79, 131, 0.74);
+}
+
+.timer {
+  display: flex;
+  justify-content: space-around;
+
+  width: 400px;
+}
+
+.field {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.value {
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.label {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
 }
